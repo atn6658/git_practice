@@ -27,6 +27,14 @@ for (let options of whatToDoToday) {
     }
 }
 
+function formatChoice(choice) {
+ 
+    const formatted = choiceOfTheDay.join('\n')
+    console.log(formatted)
+  }
+  
+  formatChoice(choiceOfTheDay);
+
 
  
    
